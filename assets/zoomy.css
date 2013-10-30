@@ -1,0 +1,34 @@
+.zoomy-large {
+  background: #000;
+  position: absolute;
+  display: block;
+  cursor: pointer;
+}
+.zoomy-large img {
+  width: 100%;
+  height: 100%;
+}
+.zoomy-wrapper {
+  height: 100%;
+  width: 100%;
+  position: relative;
+  z-index: 100;
+}
+.zoomy-wrapper .close-button {
+  position: absolute;
+  top: -20px;
+  right: -20px;
+  width: 40px;
+  height: 40px;
+  background: url(popup-close-button.png) no-repeat 0 0;
+  cursor: pointer;
+  z-index: 200;
+}
+.zoomy-wrapper .copy-protect {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: url(transparent.gif);
+}

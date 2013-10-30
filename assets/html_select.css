@@ -1,0 +1,38 @@
+.form-html-select ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+
+  float: left;
+  max-height: 20em;
+  overflow-y: auto;
+  border: 1px solid;
+  background: #fff;
+
+  -moz-box-sizing: border-box;
+  -moz-appearance: listbox;
+}
+
+* html .form-html-select {
+  height: 20em;
+}
+
+.form-html-select ul li {
+  margin: 0;
+  padding: 2px 32px 2px 4px;
+  background: none;
+  cursor: default;
+  white-space: nowrap;
+  overflow: hidden;
+  
+  -moz-user-focus: normal;
+}
+
+.form-html-select ul li.hover {
+  background: #eee;
+}
+
+.form-html-select ul li.selected {
+  background: Highlight;
+  color: HighlightText;
+}

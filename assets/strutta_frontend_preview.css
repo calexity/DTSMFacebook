@@ -1,0 +1,4 @@
+.preview-disabled {
+  opacity: .4;
+  filter: alpha(opacity = 40);
+}

@@ -1,0 +1,65 @@
+.blockMsg {
+  padding: 15px !important;
+  box-shadow: 0px -1px 3px rgba(0, 0, 0, 1), 0px 1px 3px rgba(255, 255, 255, .3) !important;
+  -moz-box-shadow: 0px -1px 3px rgba(0, 0, 0, 1), 0px 1px 3px rgba(255, 255, 255, .3) !important;
+  -webkit-box-shadow: 0px -1px 3px rgba(0, 0, 0, 1), 0px 1px 3px rgba(255, 255, 255, .3) !important;
+  background: url(/sites/all/themes/apex/images/stripes.png) repeat !important;
+  background-color: rgba(0, 0, 0, 0.8) !important;
+  border: none !important;
+  border-radius: 5px !important;
+  -moz-border-radius: 5px !important;
+  -webkit-border-radius: 5px !important;
+  color: #fff !important;
+  text-shadow: 0 0 20px rgba(255, 255, 0, .8), 0 1px 1px rgba(0, 0, 0, .8);
+}
+* html .blockMsg {
+  background-color: #333 !important;
+}
+* +html .blockMsg {
+  background-color: #333 !important;
+}
+.blockMsg input {
+  width: auto;
+  height: 30px;
+  line-height: 30px;
+  margin: 0 5px 5px 5px;
+  padding: 0 15px;
+  color: #18191a;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-shadow: 0 -1px 1px rgba(0, 0, 0, .8), 0 1px 1px rgba(255, 255, 255, .3);
+  border: none;
+  background: #ccc;
+  border-radius: 15px;
+  -moz-border-radius: 15px;
+  -webkit-border-radius: 15px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 1);
+  -moz-box-shadow: 0 2px 5px rgba(0, 0, 0, 1);
+  -webkit-box-shadow: 0 2px 5px rgba(0, 0, 0, 1);
+}
+.blockMsg p {
+  text-shadow: 0 -1px 1px black;
+}
+.blockMsg h3, .blockMsg h4 {
+  color: #fff;
+}
+.blockMsg input:focus {
+  outline: none;
+}
+.blockMsg table, .blockMsg tr.odd, .blockMsg tr.even, .blockMsg td, .blockMsg tbody {
+  background: none;
+  border: none;
+}
+.blockMsg p {
+  text-shadow: 0 -1px 1px black;
+}
+#confirm-yes {
+  background-color: #e4ff33;
+  background: -moz-linear-gradient(100% 100% 90deg, #e4ff33, #72801a);
+  background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#e4ff33), to(#72801a));
+}
+#confirm-no {
+  background-color: #ff3333;
+  background: -moz-linear-gradient(100% 100% 90deg, #ff3333, #801a1a);
+  background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#ff3333), to(#801a1a));
+}

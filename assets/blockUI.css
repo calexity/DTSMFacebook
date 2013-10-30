@@ -1,0 +1,16 @@
+.blockUI .close-button {
+  position: absolute;
+  top: -26px;
+  right: -26px;
+  width: 40px;
+  height: 40px;
+  background: url(popup-close-button.png) no-repeat 0 0;
+  cursor: pointer;
+  z-index: 2000;
+}
+.blockPage {
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, .3);
+  -moz-box-shadow: 0 0 5px rgba(0, 0, 0, .3);
+}

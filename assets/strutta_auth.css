@@ -1,0 +1,9 @@
+#page-auth-register .form-item {
+  margin-top: 0;
+}
+
+#page-auth-register .description {
+  font-size: 11px;
+  margin: 0;
+  text-align: center;
+}

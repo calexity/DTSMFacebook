@@ -1,0 +1,21 @@
+#strutta-fb-share-form #edit-avatar,
+#strutta-fb-share-form #edit-favicon {
+  float: left;
+}
+#strutta-fb-share-form #edit-text-wrapper {
+  float: left;
+}
+#strutta-fb-share-form .share-tool-fallback {
+  background-color: #eee;
+  background-image: linear-gradient(top, #eee 0%, #fff 100%);
+  background-image: -webkit-linear-gradient(top, #eee 0%, #fff 100%);
+  background-image: -moz-linear-gradient(top, #eee 0%, #fff 100%);
+  background-image: -ms-linear-gradient(top, #eee 0%, #fff 100%);
+  width: 90%;
+  margin: -10px auto 10px auto;
+  padding-top: 5px;
+  border-top: 1px solid #ddd;
+}
+#strutta-fb-share-form .share-tool-fallback p {
+  margin-bottom: 7px;
+}

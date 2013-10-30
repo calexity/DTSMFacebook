@@ -1,0 +1,21 @@
+#strutta-contests-client-preview-select-round .form-submit {
+  display: none;
+}
+#preview-round-selector {
+  background: #E5E5E5;
+  padding: 0 10px;
+}
+#preview-round-selector {
+  text-align: right;
+}
+#preview-round-selector .form-item {
+  margin: 3px 0;
+}
+#preview-round-selector label {
+  font-size: 10px;
+  color: #666;
+  display: inline;
+}
+#user-auth {
+  display: none;
+}

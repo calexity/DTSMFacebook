@@ -1,0 +1,321 @@
+/*
+ * Your CSS
+ *
+ * Please review the README.txt file for detailed instructions before you start.
+ *
+ * Please visit our FAQ for some CSS & styling tips: http://support.strutta.com/customer/portal/articles/1227226-css-and-styling-tips
+ */
+
+@import url("http://fonts.googleapis.com/css?family=Lato:900");
+
+/*TYPOGRAPHY.CSS*/
+h4 {
+ color: #3b5998;
+}
+h5 {
+ color: #3b5998;
+}
+h6 {
+ color: #3b5998;
+}
+p {
+ color: #3b5998;
+}
+a {
+ color: #3b5998;
+}
+ul, ol, dl {
+ color: #3b5998;
+}
+
+/*STYLE.CSS*/
+.template-style-highlights-light #masthead h1 a {
+ color: #2b416f;
+}
+
+#userbar a {
+ color: white;
+}
+
+.template-style-highlights-dark #userbar a {
+ color: white;
+}
+.template-style-highlights-light #userbar a {
+ color: #2b416f;
+}
+.template-style-highlights-light #userbar a:hover {
+ color: #2b416f;
+}
+#status {
+ color: white;
+}
+.template-style-highlights-dark #status {
+ color: white;
+}
+#status span a {
+ color: white;
+}
+ul.primary-links {
+ height: 60px;
+ font-family: 'Lato', sans-serif;
+}
+ul.primary-links li a {
+ height: 60px;
+ line-height: 60px;
+ color: white;
+ font-weight: 900;
+ font-size: 1.3em;
+ background: #48649e;
+}
+.template-style-highlights-dark ul.primary-links li a {
+ color: white;
+ background: #48649e;
+}
+.template-style-highlights-light ul.primary-links li a {
+ color: #2b416f;
+ background: #2b416f;
+}
+ul.primary-links li a:hover {
+ background: #2b416f;
+}
+.template-style-highlights-dark ul.primary-links li a:hover {
+ background: #2b416f;
+}
+.template-style-highlights-light ul.primary-links li a:hover {
+ color: #2b416f;
+ background: #2b416f;
+}
+ul.primary-links li .active,
+ul.primary-links li .active:hover {
+ background: #2b416f;
+}
+.template-style-highlights-light ul.primary-links li .active, .template-style-highlights-light ul.primary-links li .active:hover {
+ color: #2b416f;
+}
+#section-header {
+ border-bottom: 1px solid #b5cee2;
+ background: #ebf1f8;
+}
+#section-header h3 {
+ color: #2b416f;
+}
+#section-header h2 {
+ color: #2b416f;
+}
+#section-body h3 {
+ color: #2b416f;
+}
+#section ul.primary {
+ border-bottom: 1px solid #b5cee2;
+}
+#content ul.entry-pager li a {
+  color: white;
+}
+.template-style-highlights-light #content ul.entry-pager li a.entry-previous {
+ color: #2b416f;
+}
+.template-style-highlights-light #content ul.entry-pager li a.entry-previous:hover {
+ color: #2b416f;
+}
+.template-style-highlights-light #content ul.entry-pager li a.entry-next {
+ color: #2b416f;
+}
+.template-style-highlights-light #content ul.entry-pager li a.entry-next:hover {
+ color: #2b416f;
+}
+.template-style-highlights-light #section-body .widget-vote {
+ color: #48649e;
+}
+.template-style-highlights-light #section-body .widget-vote:hover {
+ color: #2b416f;
+}
+#widget-vote.voting-widget-disabled {
+ color: #2b416f;
+}
+#widget-vote.voting-widget-disabled:hover {
+ color: #2b416f;
+}
+.template-style-highlights-light p.prompt-rate {
+ color: #2b416f;
+}
+.entry-links {
+ background: #ebf1f8;
+ border-bottom: 1px solid #b5cee2;
+}
+#section-body .entry-links ul li a {
+ color: #48649e;
+}
+#section-body .entry-links ul li a:hover {
+ color: #48649e;
+}
+#section-body .entry-links ul li a.active,
+#section-body .entry-links ul li a.active:hover {
+ color: #2b416f;
+ background: url(images/entry-links-arrow.png) bottom center no-repeat;
+ position: relative;
+ bottom: -1px;
+}
+.box-header {
+ border-bottom: 1px solid #b5cee2;
+}
+#glance-action a, .authcancel {
+  color: #48649e;
+}
+#glance-action a:hover {
+ color: #2b416f;
+ border-color: #b5cee2;
+}
+#share-email .box-header {
+ border-top: 1px solid #b5cee2;
+}
+.box-body {
+ background: #ebf1f8;
+}
+.box-item p {
+ color: #48649e;
+}
+
+#section-body p a.box-button {
+  color: #48649e;
+}
+#section-body p a.box-button:hover {
+ color: #2b416f;
+ border-color: #b5cee2;
+}
+#section-body .entries-list ul li {
+  border-bottom: 1px solid #b5cee2;
+  background: #ebf1f8;
+}
+#section-body ul.display-list li {
+  border-bottom: 1px solid #b5cee2;
+  background: #ebf1f8;
+}
+#filter-entries ul li a.active,
+#filter-entries ul li a.active:hover {
+ border-color: #b5cee2;
+}
+#sort-entries #options-wrapper ul li a:hover {
+ color: #2b416f;
+}
+#sort-entries #options-wrapper ul li a.active {
+ color: #2b416f;
+}
+#sort-entries #options-wrapper ul.open li a.active,
+#sort-entries #options-wrapper ul.open li a.active:hover {
+ color: #2b416f;
+}
+#sort-entries #options-wrapper ul.open li.first .active,
+#sort-entries #options-wrapper ul.open li.first .active:hover {
+ color: #2b416f;
+}
+#sort-entries #options-wrapper ul.open li.last .active,
+#sort-entries #options-wrapper ul.open li.last .active:hover {
+ color: #2b416f;
+}
+#footer a#strutta {
+ color: white;
+}
+.template-style-highlights-dark #footer a#strutta {
+ color: white;
+}
+#footer p {
+  color: white;
+}
+.template-style-highlights-dark #footer p {
+ color: white;
+}
+.template-style-highlights-light #footer p {
+ color: #2b416f;
+}
+#footer p a {
+ color: white;
+}
+.template-style-highlights-dark #footer p a {
+ color: white;
+}
+.template-style-highlights-light #footer p a:hover {
+ color: #2b416f;
+}
+.template-style-background-dark #bottom p {
+ color: #333;
+}
+.template-style-background-light #bottom p {
+ color: #333;
+}
+#bottom p a {
+ color: #2b416f;
+ text-decoration: underline;
+}
+.template-style-background-dark #bottom p a {
+ color: white;
+}
+.template-style-background-light #bottom p a {
+ color: #2b416f;
+}
+fieldset,
+html.js fieldset.collapsed {
+  border-bottom: 1px solid #b5cee2;
+}
+.form-submit {
+  color: #48649e;
+}
+.form-submit:hover {
+ color: #2b416f;
+ border-color: #b5cee2;
+}
+#edit-delete,
+#edit-clear {
+  border-color: #48649e;
+}
+fieldset .description {
+  background: #ebf1f8;
+}
+#media-type-selector .form-radios {
+  border-bottom: 1px solid #b5cee2;
+}
+#fieldset-media .youtube-select {
+ background: #ebf1f8;
+}
+#fieldset-media #edit-photo-wrapper {
+ background: #ebf1f8;
+}
+#auth-form .description {
+ background: #ebf1f8;
+}
+#facebook-login-wrapper {
+ background-color: #ebf1f8;
+}
+#strutta-auth-password a#back {
+  color: #48649e;
+}
+#strutta-auth-password a#back:hover {
+ color: #2b416f;
+ border-color: #b5cee2;
+}
+.rules-lightbox h3, .rules-lightbox h2 {
+ color: #2b416f;
+}
+#ie6-message a.close:hover {
+ color: #2b416f;
+}
+
+/*IMAGE CHANGES*/
+#masthead {
+  background: url(images/top_bar.png) top center repeat #3b5998;
+}
+#browse-search a {
+  background: url(images/browse-search.png) top left no-repeat;
+}
+#sort-entries #browse-trigger {
+  background: url(images/browse-trigger-bg.png) no-repeat;
+}
+#sort-entries #options-wrapper {
+  background: url(images/sort-bg.png) top left no-repeat;
+}
+#section-body .entry-links ul li a.active,
+#section-body .entry-links ul li a.active:hover {
+  background: url(images/entry-links-arrow.png) bottom center no-repeat;
+}
+#glance-action a, .authcancel {
+  background: #fff url(images/submit-bg.png) top repeat-x;
+}

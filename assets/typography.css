@@ -1,0 +1,130 @@
+/*-------------------------------------------------
+typography
+-------------------------------------------------*/
+body {
+  font: 62.5% 'lucida grande', tahoma, verdana, arial, sans-serif;
+  color: #3d494d;
+  -webkit-text-size-adjust: none;
+}
+
+/* headings
+-----------------------------*/
+h1, h2, h3, h4, h5, h6 {
+  font-weight: normal;
+}
+h1 {
+  font-size: 3.5em;
+  margin: 0;
+}
+h2 {
+  font-size: 2.2em;
+  margin: 0;
+}
+h3 {
+  font-size: 2em;
+  color: #fff;
+  margin: 0 0 0.5em 0;
+}
+h4 {
+  font-size: 1.7em;
+  color: #333;
+  margin: 0 0 0.5em 0;
+}
+h5 {
+  font-size: 1.4em;
+  color: #333;
+  margin: 0 0 0.5em 0;
+}
+h6 {
+  font-size: 1.3em;
+  color: #333;
+  margin: 0 0 0.5em 0;
+}
+/* other */
+p {
+  font-size: 1.3em;
+  color: #333;
+  line-height: 1.65em;
+  margin: 0 0 1.65em 0;
+}
+cite {
+  font-size: 1.3em;
+  line-height: 1.65em;
+  margin: 0;
+}
+a {
+  color: #333;
+  text-decoration: none;
+  -moz-transition-property: color, background-color;
+  -webkit-transition-property: color, background-color;
+  -o-transition-property: color, background-color;
+  -moz-transition-duration: 0.5s, 0.25s;
+  -webkit-transition-duration: 0.5s, 0.25s;
+  -o-transition-duration: 5s, 0.25s;
+  -moz-animation-timing-function: linear, linear;
+  -webkit-animation-timing-function: linear, linear; 
+  -o-animation-timing-function: linear, linear; 
+}
+a:hover {
+  color: #000;
+}
+ul, ol, dl {
+  font-size: 1.3em;
+  color: #333;
+  list-style-type: none;
+}
+label,
+table {
+  font-size: 1.3em;
+  line-height: 1.5em;
+}
+legend {
+  color: #242f33;
+  font-size: 1.8em;
+  font-weight: bold;
+}
+legend a,
+#section-body legend a {
+  text-decoration: none;
+}
+.description,
+.form-item .description {
+  font-size: 1.3em;
+  line-height: 1.5em;
+  margin: 0 0 1em 0;
+}
+input, textarea {
+  font-size: 1.3em;
+  font-family: 'lucida grande', tahoma, verdana, arial, sans-serif;
+}
+/* nested elements */
+ul h1, ol h1, dl h1 {
+  font-size: 2.92em;
+}
+ul h2, ol h2, dl h2 {
+  font-size: 2em;
+}
+ul h3, ol h3, dl h3 {
+  font-size: 1.615em;
+}
+ul h4, ol h4, dl h4 {
+  font-size: 1.308em;
+}
+ul h5, ol h5, dl h5 {
+  font-size: 1.077em;
+}
+ul h6, ol h6, dl h6 {
+  font-size: 1em;
+}
+ul ul, ul ol, ul dl, ul p, ul label, ul table, ul .description, ul .form-item .description,
+ol ol, ol ul, ol dl, ol p, ol label, ol table, ol .description, ol .form-item .description,
+dl dl, dl ul, dl ol, dl p, dl label, dl table, dl .description, dl .form-item .description,
+table dl, table ul, table ol, table p, table label, table table, table .form-item .description,
+.description p, .form-item .description p, .description ul, .form-item .description ul, .description ol, .form-item .description ol, .description dl, .form-item .description dl  {
+  font-size: 1em;
+}
+hr {
+  border: none;
+  height: 1px;
+  background: #ccc;
+}

@@ -1,0 +1,35 @@
+.youtube-select ul li {
+  max-width: 330px;
+  width: 330px;
+}
+
+#fieldset-media .youtube-select .form-html-select ul li {
+  width: 135px;
+  float: left;
+  border-right: 1px solid #E5E5E5;
+  height: 121px;
+  overflow: hidden;
+}
+
+#fieldset-media .youtube-select .form-html-select ul li img {
+  width: 135px;
+  float: left;
+  vertical-align: middle;
+}
+
+.youtube-select ul li span {
+  float: left;
+  font-weight: bold;
+  padding: 5px 0 0 0;
+  width: 135px;
+  overflow: hidden;
+}
+
+.youtube-select .ahah-progress {
+  width: 15px;
+  height: 15px;
+  display: block;
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
