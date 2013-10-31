@@ -302,6 +302,9 @@ fieldset .description {
 /*IMAGE CHANGES*/
 #masthead {
   background: url(images/top_bar.png) top center repeat #3b5998;
+  text-indent: -9999em;
+  overflow: hidden;
+  text-align: left;
 }
 #browse-search a {
   background: url(images/browse-search.png) top left no-repeat;
@@ -318,4 +321,12 @@ fieldset .description {
 }
 #glance-action a, .authcancel {
   background: #fff url(images/submit-bg.png) top repeat-x;
+}
+
+#page-about .display-content {
+  display: block;
+  background: url(images/main_img.png) top center repeat;
+  text-indent: -9999em;
+  overflow: hidden;
+  text-align: left;
 }
