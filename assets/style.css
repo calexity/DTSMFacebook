@@ -14,7 +14,7 @@ body {
 }
 html.display-facebook,
 html.display-facebook body {
-  overflow: hidden;
+  /*overflow: hidden;*/
 }
 #wrapper {
   padding: 20px 0;

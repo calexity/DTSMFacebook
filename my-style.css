@@ -8,6 +8,10 @@
 
 @import url("http://fonts.googleapis.com/css?family=Lato:900");
 
+body{
+  background: white;
+}
+
 /*TYPOGRAPHY.CSS*/
 h4 {
  color: #3b5998;
@@ -297,6 +301,10 @@ fieldset .description {
 }
 #ie6-message a.close:hover {
  color: #2b416f;
+}
+
+#bottom p a {
+  color: #2b416f !important;
 }
 
 /*IMAGE CHANGES*/
