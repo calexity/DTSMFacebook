@@ -1,6 +1,6 @@
 COMMAND TO BUILD FROM THIS REPO ;)
 --------------------------
-cp -r ./ ../style-kit-01234; zip -r ../style-kit-01234.zip ../style-kit-01234; rm -rf ../style-kit-01234/; mv ../style-kit-01234.zip ~/Desktop/style-kit.zip;
+cp -r ./ ../style-kit; zip -r ../style-kit.zip ../style-kit; rm -rf ../style-kit/; mv ../style-kit.zip ~/Desktop/style-kit.zip;
 
 Style Kit
 v1.0.4
